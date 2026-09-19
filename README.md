@@ -1,4 +1,4 @@
-# wb-model-proxy —— 把 WorkBuddy 官方模型接给 Claude Code / Codex
+# wb-model-proxy —— 把 WorkBuddy 反向代理---- Claude Code / Codex
 
 一个**单文件、纯标准库**的本地代理：把 **WorkBuddy 官方提供的那批模型**（hy3 / glm-5.3 /
 kimi-k2.7 / deepseek-v4-pro / minimax-m3 …）重新暴露成标准的 **OpenAI + Anthropic 双协议**接口，
