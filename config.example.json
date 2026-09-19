@@ -1,0 +1,32 @@
+{
+  "host": "127.0.0.1",
+  "port": 8788,
+  "api_key": "",
+  "allow_any_key": false,
+  "upstream": {
+    "endpoint": "https://copilot.tencent.com",
+    "path": "/v2/chat/completions",
+    "auth_token": "",
+    "api_key": "",
+    "api_key_helper": "",
+    "user_id": "",
+    "session_id": "",
+    "extra_headers": {},
+    "refresh_token": ""
+  },
+  "default_model": "",
+  "connect_timeout": 20,
+  "read_timeout": 600,
+  "models_cache_ttl": 60,
+  "transient_retry_waits": [
+    2,
+    6,
+    15,
+    30,
+    60
+  ],
+  "dump_on_11128": true,
+  "dump_11128_dir": "",
+  "user_agent": "",
+  "dev_mode": false
+}

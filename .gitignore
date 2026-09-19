@@ -1,0 +1,23 @@
+# 本地凭据与配置：含 api_key / auth_token / refresh_token，绝不入库。
+# 仓库里只保留 config.example.json 模板；首次启动 wb_proxy.py 会自动生成 config.json。
+config.json
+config.json.tmp
+
+# 运行痕迹：11128 现场落盘、日志、测试用的临时配置，含完整请求体和系统提示词
+run/
+
+# 本地工作记录（非项目代码）
+.workbuddy/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
